@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="zhongdazx-toastplugin" version="1.0.4" 
+    xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>ZhongdaToast</name>
+    <js-module name="toastPlugin" src="www/toastPlugin.js">
+        <clobbers target="cordova.plugins.zdToast" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="ZhongdaToast">
+                <param name="android-package" value="com.zd.zhongdax.ToastPlugin" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/ToastPlugin.java" target-dir="src/com/zd/zhongdax" />
+    </platform> 
+</plugin>

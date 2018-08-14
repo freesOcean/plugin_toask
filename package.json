@@ -1,0 +1,29 @@
+{
+  "name": "zhongdazx-toastplugin",
+  "version": "1.0.4",
+  "description": "a toast plugin for android platform ",
+  "main": "index.js",
+  "scripts": {
+    "test": "zx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxjm521/plugin_toask.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-plugin-toast-android-zx",
+    "zhongda_plugin"
+
+  ],
+  "author": "zx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zxjm521/plugin_toask/issues"
+  },
+  "homepage": "https://github.com/zxjm521/plugin_toask#readme",
+  "dependencies": {
+    "user": "0.0.0"
+  }
+}
