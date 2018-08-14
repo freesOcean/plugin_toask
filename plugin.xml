@@ -3,7 +3,7 @@
     xmlns="http://apache.org/cordova/ns/plugins/1.0" 
     xmlns:android="http://schemas.android.com/apk/res/android">
     <name>ZhongdaToast</name>
-    <js-module name="toastPlugin" src="www/toastPlugin.js">
+    <js-module name="ToastPlugin" src="www/ToastPlugin.js">
         <clobbers target="cordova.plugins.zdToast" />
     </js-module>
     <platform name="android">
